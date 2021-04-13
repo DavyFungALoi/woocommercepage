@@ -43,9 +43,11 @@ li {
     justify-content: space-evenly;
     width: 526px;
     margin-right: 350px;
+
     a {
       color: #272d4e;
       font-weight: 500;
+      cursor: pointer;
     }
   }
   .action {
@@ -70,6 +72,7 @@ li {
 .hero {
   width: 818px;
   margin-left: 220px;
+  margin-top: 186px;
   .hero-info {
     h1 {
       font-family: $font-family-secondary;
@@ -86,28 +89,31 @@ li {
   .vector {
     position: absolute;
     height: 1666px;
-    width: 750px;
-    max-width: 100%;
-    left: 907px;
-    top: -579px;
-    overflow: hidden;
+    width: 1768px;
+    left: 750px;
+    top: -529px;
     border-radius: 0px;
+    z-index: -1;
   }
   .featured-image {
     position: absolute;
     right: 0px;
+    top: 197px;
   }
   .hero-cta-container {
     margin-top: 31px;
     display: flex;
-    align-items: center;
     .btn-pill {
       margin-right: 12px;
     }
-    .a {
-      font-size: 1.375rem;
-      font-weight: 700;
-      color: #299ef3;
+    .microCopy {
+      a {
+        font-size: 1.375rem;
+        font-weight: 700;
+        color: #299ef3;
+        font-size: 1.375rem;
+        font-weight: 700;
+      }
     }
   }
 }
