@@ -1,8 +1,50 @@
+@import "config";
+@import "buttons";
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.Header {
-  background-color: green;
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav {
+  margin: 37px 55px 0px;
+  font-size: $font-size-primary;
+  font-family: $font-family-primary;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 526px;
+    margin-right: 350px;
+    a {
+      color: #272d4e;
+      font-weight: 500;
+    }
+  }
+  .action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    a {
+      color: #272d4e;
+      font-weight: 500;
+    }
+    .btn-rectangle {
+      margin-left: 38px;
+      margin-right: 20px;
+      a {
+        color: $button-font-color-primary;
+      }
+    }
+  }
 }

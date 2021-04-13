@@ -1,0 +1,15 @@
+$button-font-color-primary: #ffffff;
+
+.btn-rectangle {
+  background: #7854f7;
+  padding: 13px 14px;
+  border-radius: 5px;
+  border-style: none;
+
+  a {
+    color: $button-font-color-primary;
+    font-family: $font-family-primary;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
