@@ -1,15 +1,23 @@
 $button-font-color-primary: #ffffff;
 
-.btn-rectangle {
+%btn {
   background: #7854f7;
+  border-style: none;
+  color: $button-font-color-primary;
+  color: $button-font-color-primary;
+  font-family: $font-family-primary;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.btn-rectangle {
+  @extend %btn;
   padding: 13px 14px;
   border-radius: 5px;
-  border-style: none;
-
-  a {
-    color: $button-font-color-primary;
-    font-family: $font-family-primary;
-    font-weight: 500;
-    font-size: 18px;
-  }
+}
+.btn-pill {
+  @extend %btn;
+  border-radius: 60px;
+  padding: 26px 62px;
+  cursor: pointer;
 }

@@ -6,9 +6,13 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 a {
   text-decoration: none;
+  font-family: $font-family-primary;
 }
 
 li {
@@ -83,6 +87,7 @@ li {
     position: absolute;
     height: 1666px;
     width: 750px;
+    max-width: 100%;
     left: 907px;
     top: -579px;
     overflow: hidden;
@@ -91,5 +96,18 @@ li {
   .featured-image {
     position: absolute;
     right: 0px;
+  }
+  .hero-cta-container {
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+    .btn-pill {
+      margin-right: 12px;
+    }
+    .a {
+      font-size: 1.375rem;
+      font-weight: 700;
+      color: #299ef3;
+    }
   }
 }
