@@ -64,18 +64,32 @@ li {
 }
 
 .hero {
-  position: relative;
+  width: 818px;
+  margin-left: 220px;
+  .hero-info {
+    h1 {
+      font-family: $font-family-secondary;
+      font-size: 85px;
+      font-weight: 700;
+      line-height: 95px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .microCopy {
+      margin-top: 29px;
+    }
+  }
   .vector {
     position: absolute;
     height: 1666px;
-    width: 1767px;
-    ///width: 1767px;
-    ///left: 957px;
-    left: 957px;
+    width: 750px;
+    left: 907px;
     top: -579px;
+    overflow: hidden;
     border-radius: 0px;
   }
   .featured-image {
     position: absolute;
+    right: 0px;
   }
 }
