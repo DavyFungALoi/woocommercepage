@@ -1,0 +1,74 @@
+.features-card {
+  border: solid 1px black;
+  h2 {
+    font-family: $font-family-secondary;
+    color: #272d4e;
+    font-size: 2rem;
+    margin-top: 40px;
+  }
+  .microCopy {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    width: 430px;
+  }
+  a {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #299ef3;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
+
+%card-image {
+  position: absolute;
+}
+
+.card-1 {
+  position: relative;
+  .card-1-image1 {
+    @extend %card-image;
+    top: 60px;
+    right: 325px;
+  }
+  .card-1-image2 {
+    @extend %card-image;
+    right: 500px;
+    top: 35px;
+  }
+}
+.card-2 {
+  margin-top: 50px;
+  position: relative;
+  .card-2-image1 {
+    @extend %card-image;
+    right: 275px;
+    top: -35px;
+  }
+  .card-2-image2 {
+    @extend %card-image;
+    right: 35px;
+    top: 20px
+  }
+
+  .card-2-image3 {
+    @extend %card-image;
+    right: 275px;
+    top: 110px;
+  }
+
+  .card-2-image4 {
+    @extend %card-image;
+    right: 175px;
+    top: 250px;
+  }
+  .card-2-image5 {
+    @extend %card-image;
+    right: 100px;
+    top: 135px;
+  }
+}
+.card-3 {
+  margin-top: 100px;
+  position: relative;
+}

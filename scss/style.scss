@@ -1,6 +1,7 @@
 @import "config";
 @import "buttons";
 @import "utilities";
+@import "cards";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -126,6 +127,14 @@ li {
   }
 }
 
-.Test {
-  background-color: blue;
+.features-container {
+  h1 {
+    color: #272d4e;
+    text-align: center;
+  }
+}
+.features-card-container {
+  display: flex;
+  margin-left: 220px;
+  margin-right: 205px;
 }
