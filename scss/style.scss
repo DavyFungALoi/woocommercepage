@@ -1,5 +1,6 @@
 @import "config";
 @import "buttons";
+@import "utilities";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,6 +13,18 @@ a {
 
 li {
   list-style-type: none;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 1188px;
+  background-image: linear-gradient(
+    180deg,
+    #e5efff 0%,
+    rgba(229, 239, 255, 0.262661) 83.7%,
+    rgba(229, 239, 255, 0) 100%
+  );
+  position: absolute;
 }
 
 .nav {
@@ -35,6 +48,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    z-index: 1;
     a {
       color: #272d4e;
       font-weight: 500;
@@ -46,5 +60,22 @@ li {
         color: $button-font-color-primary;
       }
     }
+  }
+}
+
+.hero {
+  position: relative;
+  .vector {
+    position: absolute;
+    height: 1666px;
+    width: 1767px;
+    ///width: 1767px;
+    ///left: 957px;
+    left: 957px;
+    top: -579px;
+    border-radius: 0px;
+  }
+  .featured-image {
+    position: absolute;
   }
 }
