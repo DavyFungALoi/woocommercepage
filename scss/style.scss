@@ -2,6 +2,7 @@
 @import "buttons";
 @import "utilities";
 @import "cards";
+@import "section";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -22,7 +23,8 @@ li {
 
 .wrapper {
   width: 100%;
-  min-height: 1188px;
+  /// min-height: 1188px;
+  min-height: 1000px;
 
   background-image: linear-gradient(
     180deg,
@@ -130,11 +132,27 @@ li {
 .features-container {
   h1 {
     color: #272d4e;
+    width: 50%;
+    margin: auto;
+    margin-top: -35px;
+    width: 457px;
+    font-size: 55px;
+    line-height: 70px;
     text-align: center;
   }
 }
 .features-card-container {
   display: flex;
   margin-left: 220px;
-  margin-right: 205px;
+}
+
+.section-wrapper {
+  height: 1110px;
+  width: 1920px;
+  background-image: url("/src/images/section/Rectangle\ 234.png");
+  border-radius: 0px;
+  .btn-pill {
+    background-color: #70c217;
+    padding: 22px 26px;
+  }
 }

@@ -1,0 +1,35 @@
+.section-wrapper {
+  height: 1110px;
+  width: 1920px;
+  background-image: url("/src/images/section/Rectangle\ 234.png");
+  border-radius: 0px;
+  .btn-pill {
+    background-color: #70c217;
+    padding: 22px 26px;
+  }
+}
+%section {
+  display: flex;
+  color: white;
+  h2 {
+    font-family: $font-family-secondary;
+    font-size: 2rem;
+  }
+  p {
+    font-family: $font-family-primary;
+    font-size: 1.125rem;
+  }
+  .section-info-container {
+    width: 480px;
+    line-height: 30px;
+  }
+}
+
+.section-top {
+  @extend %section;
+}
+
+.section-bottom {
+  @extend %section;
+  flex-direction: row-reverse;
+}

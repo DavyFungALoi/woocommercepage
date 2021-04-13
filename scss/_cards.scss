@@ -1,5 +1,4 @@
 .features-card {
-  border: solid 1px black;
   h2 {
     font-family: $font-family-secondary;
     color: #272d4e;
@@ -48,7 +47,7 @@
   .card-2-image2 {
     @extend %card-image;
     right: 35px;
-    top: 20px
+    top: 20px;
   }
 
   .card-2-image3 {
@@ -71,4 +70,20 @@
 .card-3 {
   margin-top: 100px;
   position: relative;
+  .card-3-image1 {
+    @extend %card-image;
+    left: 325px;
+    top: 125px;
+  }
+  .card-3-image2 {
+    @extend %card-image;
+    left: 35px;
+    top: -25px;
+  }
+
+  .card-3-image3 {
+    @extend %card-image;
+    left: 275px;
+    top: -100px;
+  }
 }
