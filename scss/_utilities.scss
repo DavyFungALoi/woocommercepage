@@ -7,3 +7,25 @@
   text-align: left;
   color: rgba(148, 162, 179, 1);
 }
+
+%circle {
+  position: absolute;
+  border: 5px solid #ffba49;
+  border-radius: 50%;
+}
+
+.circle-small {
+  @extend %circle;
+  width: 65px;
+  height: 65px;
+}
+.circle-large {
+  @extend %circle;
+  width: 262px;
+  height: 262px;
+}
+.circle-extra-large {
+  @extend %circle;
+  width: 401px;
+  height: 401px;
+}

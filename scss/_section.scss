@@ -1,12 +1,30 @@
 .section-wrapper {
+  position: relative;
+  margin-top: 124px;
   height: 1110px;
-  width: 1920px;
+  width: 100%;
   background-image: url("/src/images/section/Rectangle\ 234.png");
   border-radius: 0px;
   .btn-pill {
     background-color: #70c217;
     padding: 22px 26px;
   }
+  .circle-small {
+    margin-left: 1236px;
+    margin-top: 475px;
+    z-index: 2;
+  
+
+  }
+  .circle-large {
+    margin-left: 1441px;
+    margin-top: 536px;
+
+  }
+  .circle-extra-large {
+    margin-left: 237px;
+    margin-top: 172px;
+  } 
 }
 %section {
   display: flex;
@@ -14,10 +32,15 @@
   h2 {
     font-family: $font-family-secondary;
     font-size: 2rem;
+    line-height: 45.54px;
   }
   p {
     font-family: $font-family-primary;
     font-size: 1.125rem;
+    margin-top: 13px;
+  }
+  button {
+    margin-top: 39px;
   }
   .section-info-container {
     width: 480px;
@@ -26,10 +49,49 @@
 }
 
 .section-top {
+  margin-left: 345px;
   @extend %section;
+  .section-info-container {
+    margin-left: 70px;
+    margin-top: 90px;
+  }
+  img {
+    margin-top: -41px;
+    z-index: 1;
+    height: fit-content;
+    width: fit-content;
+    max-width: 25%;
+    max-height: 10%;
+  }
 }
 
 .section-bottom {
   @extend %section;
+
+  margin-right: 346px;
   flex-direction: row-reverse;
+  .section-info-container {
+    margin-top: 86px;
+  }
+  img {
+    margin-left: 69px;
+    margin-top: 50px;
+    z-index: 1;
+    height: fit-content;
+    width: fit-content;
+    max-width: 25%;
+    max-height: 10%;
+  }
+}
+
+.dot-grid-vertical {
+  position: absolute;
+  margin-top: 376px;
+  margin-left: 250px;
+}
+
+.dot-grid-horizontal {
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 1285px;
 }
