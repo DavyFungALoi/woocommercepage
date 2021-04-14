@@ -3,6 +3,8 @@
 @import "utilities";
 @import "cards";
 @import "section";
+@import "testimonials";
+@import "people";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -132,10 +134,9 @@ li {
 .features-container {
   h1 {
     color: #272d4e;
-    width: 50%;
+    width: 25%;
     margin: auto;
     margin-top: -35px;
-    width: 457px;
     font-size: 55px;
     line-height: 70px;
     text-align: center;
