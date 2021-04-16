@@ -1,0 +1,24 @@
+.cta-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  background-color: #5f37ef;
+  justify-content: center;
+  padding: 78px 321px 78px 470px;
+  h2 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+    width: 75%;
+  }
+  .btn-pill {
+    margin-left: 67px;
+    padding: 26px 46px 25px 46px;
+    border: solid white 2px;
+    background-color: #5f37ef;
+    font-size: 1.125rem;
+    font-family: $font-family-primary;
+    font-weight: 700;
+    
+  }
+}
