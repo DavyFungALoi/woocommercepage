@@ -10,5 +10,4 @@ note: this is a DESKTOP ONLY version.
 
 Example
 
-<img src="WooCommerceLandingPage.png" width="450 height="10">
-
+![landingpagescreenshotexample](/WooCommerceLandingPage.png)
