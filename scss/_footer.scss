@@ -33,6 +33,7 @@
   padding-left: 10%;
   padding-right: 10%;
   border-top: solid 1px #9a7dff;
+  padding-bottom: 64px;
   // box-shadow: radius 4px rgba(0, 0, 0, 0.25);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -44,7 +45,7 @@
   }
   li {
     font-size: 0.75rem;
-    padding: 3px;
+    line-height: 22px;
   }
   a {
     color: white;
@@ -62,13 +63,11 @@
   margin-left: 11.5%;
   margin-right: 11.5%;
   .social__copyright-socialmedia-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      column-gap: 54px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 54px;
   }
   .social__copyright-copyright {
-    //  padding-left: 284px;
-    //  padding-right: 346px;
     font-size: 0.75rem;
   }
 }

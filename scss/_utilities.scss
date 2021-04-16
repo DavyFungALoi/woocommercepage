@@ -17,11 +17,26 @@
   border: 5px solid #ffba49;
   border-radius: 50%;
 }
+.circle-tiny {
+  @extend %circle;
+  width: 34px;
+  height: 34px;
+}
 
+.circle-extra-small {
+  @extend %circle;
+  width: 43px;
+  height: 43px;
+}
 .circle-small {
   @extend %circle;
   width: 65px;
   height: 65px;
+}
+.circle-medium {
+  @extend %circle;
+  width: 88px;
+  height: 88px;
 }
 .circle-large {
   @extend %circle;

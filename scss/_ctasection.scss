@@ -2,13 +2,15 @@
   position: relative;
   display: flex;
   background-color: #5f37ef;
-  justify-content: center;
-  padding: 78px 321px 78px 470px;
+  justify-content: space-between;
+  align-items: center;
+  // padding: 78px 321px 78px 470px;
+  padding: 78px 17% 78px 25%;
   h2 {
     font-size: 2rem;
     color: white;
     font-weight: 400;
-    width: 75%;
+    justify-content: space-between;
   }
   .btn-pill {
     margin-left: 67px;
@@ -20,5 +22,9 @@
     font-size: 1.125rem;
     font-family: $font-family-primary;
     font-weight: 700;
+  }
+  .circle-medium {
+    margin-left: 80%;
+    margin-top: 194px;
   }
 }
