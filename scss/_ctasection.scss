@@ -1,6 +1,5 @@
 .cta-wrapper {
   position: relative;
-  width: 100%;
   display: flex;
   background-color: #5f37ef;
   justify-content: center;
@@ -13,12 +12,13 @@
   }
   .btn-pill {
     margin-left: 67px;
-    padding: 26px 46px 25px 46px;
+    padding: 0;
+    width: 207px;
+    height: 72px;
     border: solid white 2px;
     background-color: #5f37ef;
     font-size: 1.125rem;
     font-family: $font-family-primary;
     font-weight: 700;
-    
   }
 }
